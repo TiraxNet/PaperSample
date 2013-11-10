@@ -1,4 +1,3 @@
-
 --
 -- Dumping data for table `blocks`
 --
@@ -11,7 +10,7 @@ INSERT INTO `blocks` (`id`, `tmp`, `parent`, `name`, `x1`, `y1`, `x2`, `y2`, `wi
 --
 
 INSERT INTO `templates` (`id`, `name`, `version`, `title`, `parent`, `css`) VALUES
-(1, 'Home_Page', '1', 'Paper!', 0, '#PapaDIV{text-align:center}');
+(1, 'Home_Page', '1', 'Paper!', 0, '#PapaDIV{text-align:center;background:#ffffff;}Body{background:#ffffff;}');
 
 --
 -- Dumping data for table `widgets`
